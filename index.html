@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peti felhők és legördülő menü</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <h2 id="text">Felhők</h2>
+        <div class="clouds">
+        <img src="cloud1.png" style="--i:1;">
+        <img src="cloud2.png" style="--i:2;">
+        <img src="cloud3.png" style="--i:3;">
+        <img src="cloud4.png" style="--i:4;">
+        <img src="cloud5.png" style="--i:5;">
+        <img src="cloud1.png" style="--i:10;">
+        <img src="cloud2.png" style="--i:9;">
+        <img src="cloud3.png" style="--i:8;">
+        <img src="cloud4.png" style="--i:7;">
+        <img src="cloud5.png" style="--i:6;">
+        </div>
+    </div>
+    <section>
+        <h2>Felhős weboldal projekt</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse error cum quaerat, aut harum recusandae dolore eligendi soluta blanditiis aliquid nesciunt quidem incidunt ratione dolores explicabo in aliquam officia minima debitis pariatur eum obcaecati eius! Quibusdam commodi explicabo at nihil nulla rem, laborum molestias ducimus nam vero placeat quia fuga enim voluptates veniam! Ea veniam similique dicta, aliquid perferendis qui natus nemo amet minima cupiditate tenetur magni! Qui laudantium cupiditate blanditiis fuga nemo reprehenderit similique quia delectus, distinctio eligendi dolor consequatur voluptate. Consectetur recusandae vel voluptas iste, doloribus maiores, fugit, eum odit distinctio consequuntur tenetur eligendi amet obcaecati qui explicabo eius! Aperiam ullam minima fugit ea ratione, voluptates tempore excepturi minus quas ipsum, veniam repudiandae magni nesciunt sunt quae delectus? Nobis perspiciatis sint omnis odio dolor unde id recusandae nam aperiam molestias, iusto possimus placeat sapiente officia similique voluptatem doloremque ad molestiae fugiat dolore delectus ab harum temporibus enim. Voluptatibus est eligendi aspernatur! Minus ea fugit dignissimos rerum blanditiis. Temporibus sint eveniet commodi nulla, dolores voluptatibus voluptate repellat in perspiciatis quibusdam ipsum odio consectetur alias, voluptates est? Repellat deleniti consectetur aut cupiditate alias, eius nam corrupti itaque, ipsa similique consequatur quod harum libero in minus. Fuga rem, molestiae in tempore nam sint esse minima excepturi eos, vel aliquam sed culpa omnis exercitationem enim totam sequi ipsam officia illum id. Obcaecati sunt deleniti alias doloribus voluptatem consequuntur eos maiores unde porro nesciunt quos sapiente itaque, impedit asperiores enim vitae. Alias tenetur, incidunt tempore temporibus obcaecati impedit nam eum veniam distinctio sint quidem! Et, sint inventore totam quae vel quam natus provident eius reprehenderit commodi ex id veritatis culpa rerum aspernatur eaque repellendus excepturi corrupti praesentium delectus sapiente facere. Error fugiat recusandae, ut id ullam beatae quae voluptatibus nostrum, aliquam sapiente porro voluptate suscipit doloribus reprehenderit similique a non. Vel, aut laudantium quibusdam id ducimus libero inventore sequi mollitia quam minima quaerat doloremque distinctio cupiditate, ab illo nam eligendi! Error tenetur, vitae eligendi quas assumenda id sit reprehenderit velit optio adipisci possimus dignissimos nemo, ex vero ipsam nihil et sapiente obcaecati modi. Quod voluptates quos aperiam eaque ducimus mollitia nam molestiae iure vero quaerat, nesciunt eos sapiente numquam quam voluptatum, tempora magnam aspernatur magni nemo officia. Facere ab architecto quos ipsam asperiores, doloremque, officia rerum eveniet repudiandae odit modi accusamus pariatur dolor fuga repellat. Aliquid, sint distinctio. Mollitia aperiam esse et veniam tempore quisquam sapiente dolores, tempora, debitis quaerat optio, dolorum consequuntur alias? Autem, dolor molestias aliquid impedit neque quia nihil exercitationem nulla pariatur cupiditate provident expedita quisquam animi, eaque recusandae eius culpa optio, voluptates assumenda aspernatur magni ad deserunt? Saepe, porro ratione maiores modi pariatur quam! Iure rerum, voluptas, sunt dicta at ad eum aut vero aperiam earum debitis modi et eveniet, magnam dolorem non voluptatibus. Laboriosam quae velit ducimus quos accusamus, beatae facilis ratione optio nam. Itaque dolore voluptatum eveniet dicta voluptates nam dolores id temporibus, impedit illum similique labore error, architecto nisi, nihil libero animi maxime soluta officia porro omnis. Fugiat hic beatae sequi doloribus deserunt similique vel.
+        </p>
+    </section>
+
+
+    <script type="text/javascript">
+    //ettől repül felfelé a cím 3d-s érzettel
+
+    let text = document.getElementById('text');
+    window.addEventListener('scroll' , function(){
+        let value = window.scrollY;
+        text.style.marginBottom = value * 2 + 'px';
+    })
+    
+    </script>
+</body>
+</html>
